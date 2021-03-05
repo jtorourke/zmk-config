@@ -1,0 +1,18 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+// -----------------------------------------------------------------------------------------
+// TODO: Add diagram for keymap
+      bindings = <
+                 &kp UARW
+        &kp LARW &kp DARW &kp RARW
+      >;
+    };
+  };
+};
